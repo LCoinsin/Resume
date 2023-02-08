@@ -16,6 +16,9 @@ import {
   SiNextdotjs,
   SiPython,
   SiGraphql,
+  SiCplusplus,
+  SiJava,
+  SiAndroid,
 } from 'react-icons/si';
 import { getPosts, Post } from '@posts';
 import { TransparentLink } from '@components';
@@ -26,52 +29,28 @@ interface AboutProps {
 
 const stacks = [
   {
-    Icon: SiGo,
-    url: 'https://golang.org/',
-  },
-  {
-    Icon: SiKubernetes,
-    url: 'https://kubernetes.io/',
-  },
-  {
-    Icon: SiTypescript,
-    url: 'https://www.typescriptlang.org/',
+    Icon: SiPython,
+    url: 'https://www.python.org/',
   },
   {
     Icon: SiReact,
     url: 'https://reactjs.org/',
   },
   {
-    Icon: SiGraphql,
-    url: 'https://graphql.org/',
-  },
-  {
-    Icon: SiAmazonaws,
-    url: 'https://aws.amazon.com/',
-  },
-  {
-    Icon: SiNextdotjs,
-    url: 'https://nextjs.org/',
-  },
-  {
-    Icon: SiElixir,
-    url: 'https://elixir-lang.org/',
-  },
-  {
-    Icon: SiGooglecloud,
-    url: 'https://cloud.google.com/',
-  },
-  {
-    Icon: SiTerraform,
-    url: 'https://www.terraform.io/',
-  },
-  {
     Icon: SiPostgresql,
     url: 'https://www.postgresql.org/',
   },
   {
-    Icon: SiPython,
-    url: 'https://www.python.org/',
+    Icon: SiCplusplus,
+    url: ''
+  },
+  {
+    Icon: SiJava,
+    url: ''
+  },
+  {
+    Icon: SiAndroid,
+    url: ''
   },
 ];
 

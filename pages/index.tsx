@@ -18,21 +18,21 @@ const Home = (): JSX.Element => (
     >
       <Container alignItems="center" alignContent="center">
         <Image
-          src="/me.webp"
-          alt="Antoine Ordonez"
+          src="/me.jpeg"
+          alt="Leo Coinsin"
           width={120}
           height={120}
           objectFit="cover"
           className={styles.image}
         />
-        <Title>Antoine Ordonez</Title>
+        <Title>Leo Coinsin</Title>
         <Title
           fontSize="2rem"
           color="rgba(0, 0, 0, 0.6)"
           fontWeight="500"
           as="h2"
         >
-          I build cloud software.
+          Développeur logiciel.
         </Title>
       </Container>
       <Container maxWidth="700px" gridGap="3rem">
@@ -44,7 +44,7 @@ const Home = (): JSX.Element => (
           </Text>
         </Container>
         <Link href="/about">
-          <Button>More about me &rarr;</Button>
+          <Button>En savoir plus &rarr;</Button>
         </Link>
       </Container>
     </Container>
@@ -54,7 +54,7 @@ const Home = (): JSX.Element => (
         <Title fontSize="3rem" as="h3">
           Get in touch
         </Title>
-        <Text textAlign="center">
+        <Text textAlign="center">r
           Although I&apos;m not actively looking for job opportunities, my inbox
           is still open for you. Feel free to ask me anything!
         </Text>

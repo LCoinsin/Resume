@@ -9,23 +9,15 @@ import Close from '@icons/Close';
 const states: { [key: string]: React.CSSProperties } = {
   '/': {
     left: '6px',
-    width: '61px',
+    width: '72px',
   },
   '/about': {
-    left: '81px',
-    width: '65px',
-  },
-  '/blog': {
-    left: '157px',
-    width: '55px',
-  },
-  '/bookmarks': {
-    left: '224px',
-    width: '100px',
+    left: '93px',
+    width: '81px',
   },
   '/projects': {
-    left: '340px',
-    width: '79px',
+    left: '192px',
+    width: '76px',
   },
 };
 
@@ -57,10 +49,8 @@ export interface NavProps {
 
 const Links = (): JSX.Element => (
   <>
-    <NavLink href="/">Home</NavLink>
-    <NavLink href="/about">About</NavLink>
-    <NavLink href="/blog">Blog</NavLink>
-    <NavLink href="/bookmarks">Bookmarks</NavLink>
+    <NavLink href="/">Accueil</NavLink>
+    <NavLink href="/about">A propos</NavLink>
     <NavLink href="/projects">Projects</NavLink>
   </>
 );
@@ -88,7 +78,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
       margin="3rem 0"
     >
       <Container display={['none', 'none', 'flex']}>
-        <NavLink href="/">Antoine Ordonez</NavLink>
+        <NavLink href="/">Léo Coinsin</NavLink>
       </Container>
       <MenuContainer display={['flex', 'none', 'none']}>
         {isOpen ? (
@@ -115,7 +105,7 @@ const Nav = ({ isOpen, onOpen, onClose }: NavProps): JSX.Element => {
           gridGap="2rem"
           alignItems="center"
           justifyItems="center"
-          gridTemplateColumns="repeat(5, auto)"
+          gridTemplateColumns="repeat(3, auto)"
           style={{
             borderRadius: '25px',
             background: 'rgba(0, 0, 0, 0.04)',
